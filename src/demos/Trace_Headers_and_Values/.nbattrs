@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="Suascii">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Sucountkey">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Sudumptrace">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Sukeycount">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+</attributes>

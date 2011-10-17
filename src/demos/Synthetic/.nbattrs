@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="Cshot">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Finite_Difference">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="From_Well_Logs">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Impulse">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Kirchhoff">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Reflectivity">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Suaddevent">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Suwaveform">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Tetra">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Tri">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Trielas">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+</attributes>

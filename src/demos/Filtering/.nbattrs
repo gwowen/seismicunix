@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="Subfilt">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Sudipfilt">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Sufilter">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Sugabor">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Suk1k2filter">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Sukfilter">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Sumedian">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+</attributes>

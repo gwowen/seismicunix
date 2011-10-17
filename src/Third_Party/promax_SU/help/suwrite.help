@@ -1,0 +1,99 @@
+SUWRITE
+
+SUWRITE converts ProMax data to SU format and either writes
+it to an SU data file or pipes it into a Unix script file to 
+be read by the SU module "suget".  The output from "suget" can 
+piped on to other SU modules for further processing prior to
+writing an output file.
+
+Parameters:	defaults:		definition:
+
+CHOOSE1		Choose type of input.
+		SU_command		Pipe output data to become
+					the standard input to this
+					SU command.
+		SU_data_file  		Will write output data directly 
+					to SU file.				
+		SU_command_file		Will enter name of SU command 
+					file and write output to the 
+					SU program suget. (see below)
+
+CMNDFILE	Path to SU command file including file name.
+
+DATAFILE	Path to SU data file including file name.
+
+XDR		Output in XDR (big-endian) format?
+
+SU stands for Seismic Unix which is a collection of public domain
+software developed by the Center for Wave Phenomina at the Colorado
+School of Mines based on an earlier system developed at Stanford
+University.  One can obtain the SU system by anonymous ftp over the
+Internet.  Enter
+
+ftp
+open hilbert.mines.colorado.edu
+cd pub
+cd cwpcodes
+get README_BEFORE_UNTARRING
+get cwp.su.all.21.tar.Z
+... you may want to get some of the other files too ...
+quit
+
+uncompress cwp.su.all.21.tar.Z
+tar -xvf cwp.su.all.21.tar
+
+Then, you have to look at all the installation documentation and
+figure out how to compile and link all the modules together.  On
+a system where SU is already installed, you can enter "suhelp"
+to get a list of available modules or the name of a module without
+parameters to get the self documentation for that module.
+
+An example SU script to receive data from an 
+external system output module could be:
+
+#! /bin/sh
+suget fd=$1 | supswigb > display.ps
+exit 0
+
+In this example, the SU module "suget" receives the piped data on the 
+Unix file descriptor "$1" passed by ProMax as the first argument to 
+the command file.  It pipes the data on to an SU plotting module 
+which outputs a postscript file.  On our system, we have a public
+domain program called ghostscript which will display a postscript
+file on the screen.  To make a screen display of the postscript
+file "display.ps" on our system, enter "gs display.ps".  The
+standard Unix "lpr" command can be used to send the plot to a
+postscript printer.
+
+For our purposes, postscript displays are needed to include in
+reports and theses.  The SU system has modules available to make 
+postscript wiggle trace, contour, and image displays.  We may
+have several versions of swrite in our ProMax menu system with
+each pointing to a commonly used command file for a particular
+type of display.
+
+The philosophy behind SU is based on modular programs, Unix scripts,
+and connecting pipes.  Many SU modules need to be run as part of a 
+script that does looping and parameter substitution to be really  
+effective, as each module has been kept relatively simple for
+tutorial reasons.  This approach allows ProMax data to be piped to 
+SU programs and output data files in a flexible manner.  
+
+Note: This documentation assumes the user has knowledge of SU scripts.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

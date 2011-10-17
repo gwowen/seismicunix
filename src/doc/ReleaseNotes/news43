@@ -1,0 +1,33 @@
+CWP/SU:Seismic Un*x   Release 43           some time after:    15 Feb 2010
+----------------------------------------------------------------
+--------------------------
+New codes include:
+--------------------------
+su/main/headers/sucdpbin.c - compute CWP bin number
+	-Thanks to:  Dominique Rousset and Mohamed Hamza,
+             Université de Pau et des Pays de l'Adour (France)
+
+--------------------------
+Updates to existing codes:
+--------------------------
+su/main/synthetics_waveforms_testpatterns/sufdmod2.c - added line source
+	and continuous wave source options
+	-Thanks to: Chris Liner, University of Houston.
+
+-----------------------------------------------------------------------
+My thanks to all of the users of SU for your thoughtful questions,
+suggestions, code fixes, and software contributions. 
+
+			-John Stockwell   
+		
+
+John Stockwell	 | john@dix.Mines.EDU
+Center for Wave Phenomena (The Home of Seismic Un*x)
+Colorado School of Mines
+Golden, CO 80401 | http://www.cwp.mines.edu/cwpcodes
+voice: (303) 273-3049
+
+Our book:
+Norman Bleistein, Jack K. Cohen, John W. Stockwell Jr., [2001],
+Mathematics of multidimensional seismic imaging, migration, and inversion,
+(Interdisciplinary Applied Mathematics, V. 13.), Springer-Verlag, New York.

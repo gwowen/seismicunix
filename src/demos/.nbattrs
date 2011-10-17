@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="3D_Data_Viewing">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="3D_Model_Building">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Amplitude_Correction">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="BC_Examples">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Block">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Datuming">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Deconvolution">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Dip_Moveout">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Filtering">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Header_Remapping">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Kaperture">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Making_Data">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Migration_Inversion">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Muting">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="NMO">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Noise">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Offset_Continuation">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Picking">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Plotting">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Ray_Tracing">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Reading_Data">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Reflection_Coefficients">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Refraction">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="SUManual">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Selecting_Traces">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Sorting_Traces">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Stacking_Traces">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Statics">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Synthetic">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Tau_P">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Three_Component_Traces">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Time_Freq_Analysis">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Trace_Headers_and_Values">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Utilities">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Velocity_Analysis">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Velocity_Profiles">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Vibroseis_Sweeps">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Wavelet_Transforms">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Well_Log">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+</attributes>

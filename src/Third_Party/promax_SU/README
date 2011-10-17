@@ -1,0 +1,15 @@
+This directory holds files for the ProMAX SU interface.
+
+Please note that CWP tries to avoid preferential 
+treatment for any contractor system.  The codes here 
+were useful for running SU software from within the
+ProMAX system available within the CSM environment.
+These algorithms could be easily adapted to allow the 
+use of SU codes within any other modular contractor system.
+
+../help		-- text help files for the modules SUREAD and SUWRITE
+
+../menu		-- Lisp menu files for the modules SUREAD and SUWRITE
+
+../maxtool 	-- C source code files for the modules SUREAD and SUWRITE
+

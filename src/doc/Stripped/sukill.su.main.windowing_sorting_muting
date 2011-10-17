@@ -1,0 +1,16 @@
+ SUKILL - zero out traces					
+
+ sukill <stdin >stdout min= count=1				
+
+ Required parameters						
+ 	min= 		first trace to kill (one-based)		
+
+ Optional parameters						
+ 	count= 1	number of traces to kill 		
+
+
+ Credits:
+	CWP: Chris Liner, Jack K. Cohen
+
+ Trace header fields accessed: ns
+

@@ -1,0 +1,110 @@
+SUREAD
+
+SUREAD is a ProMax input module that either reads data 
+from an SU data file or pipes data from an SU command file.  
+The SU data are converted to ProMax's internal trace format
+and passed on to the next ProMax module.
+
+Parameters:	
+
+CHOOSE1		Choose type of input.
+		SU_command		Execute SU command and pipe
+					its output into this module
+					as the input stream
+		SU_data_file  		Will read input data directly 
+					from SU file.				
+		SU_command_file		Will enter name of SU command 
+					file and read output from the 
+					SU program suput.
+
+CMND		SU command
+CMNDFILE	Path to SU command file including file name.
+
+DATAFILE	Path to SU data file including file name.
+
+SORT		Sort order of the input data.
+
+		(PKEY=SOURCE, SKEY=SEQNO inside Promax for all choices)
+		Shot_records		Primary sort key from SU is fldr.
+		CDP_gathers		Primary sort key from SU is cdp.
+		Common_receiver_records	Primary sort key from SU is wevel.
+		Common_offset_records	Primary sort key from SU is offset.
+		Common_channel_order	Primary sort key from SU is tracf.
+		Unknown			Primary sort key from SU will be tracl.
+
+NPENS		Maximum number of traces per ensemble.
+		
+TYPE		Type of input data.
+
+		Normal_unstacked_data
+		Uphole_data
+		Transformed_unstacked_data
+		Transformed_stacked_data
+		Normal_stacked_data
+		Snapshots		
+
+XDR		Choose data endianness
+
+		Autoselect (by trace header inspection)
+		Native
+		Swapped
+
+SU stands for Seismic Unix which is a collection of public domain
+software developed by the Center for Wave Phenomina at the Colorado
+School of Mines based on an earlier system developed at Stanford
+University.  One can obtain the SU system by anonymous ftp over the
+Internet.  Enter
+
+ftp
+open hilbert.mines.colorado.edu
+cd pub
+cd cwpcodes
+get README_BEFORE_UNTARRING
+get cwp.su.all.21.tar.Z
+... you may want to get some of the other files too ...
+quit
+
+uncompress cwp.su.all.21.tar.Z
+tar -xvf cwp.su.all.21.tar
+
+Then, you have to look at all the installation documentation and
+figure out how to compile and link all the modules together.  On
+a system where SU is already installed, you can enter "suhelp"
+to get a list of available modules or the name of a module without
+parameters to get the self documentation for that module.
+ 
+An example SU script to pass data to SUREAD could be:
+
+#! /bin/sh
+suput fd=$1 <input.su
+exit 0
+
+In this example, the SU module "suput" reads the SU file "input.su"
+and passes the data on to SUREAD via a pipe connected on  
+Unix file descriptor "$1". The "$1" script parameter was passed by 
+SUREAD as the first argument to the command file.  This example
+is overly simple, because in this case, it would be better to choose
+the data file input option directly from the SUREAD menu and avoid
+the extra overhead of using Unix pipes.  However, this script could 
+be made much more complicated and multiple SU modules could be used to do
+process the input data.  Usually, one would have several SU 
+modules in a pipeline with "suput" the last module in the pipeline.  
+The use of pipes allows one to avoid storing intermediate data sets
+on disk.
+
+A second example uses the SU program, suplane, to generate
+synthetic data.  These data are then piped to suput and from
+there into the ProMax module SUREAD.
+
+#! /bin/sh
+suplane | suput fd=$1  
+exit 0
+
+The philosophy behind SU is based on modular programs, Unix scripts,
+and connecting pipes.  Many SU modules may need to be run as part of a 
+script that does looping and parameter substitution to be really  
+effective, as each module has been kept relatively simple for
+tutorial reasons.  This approach allows SU data and programs
+to be interfaced to ProMax in a flexible manner.  
+
+Note: This documentation assumes the user has knowledge of SU scripts.

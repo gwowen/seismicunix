@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="Makevel">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Marmousi">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Unif2">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Unisam2">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Vel2stiff">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+    <fileobject name="Velconv">
+        <attr name="OpenIDE-Folder-SortMode" stringvalue="F"/>
+    </fileobject>
+</attributes>
